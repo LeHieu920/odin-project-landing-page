@@ -1,6 +1,8 @@
 * {
-    border: 2px solid red;
     
+    font-family: "Roboto"; 
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -8,6 +10,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .logo ul {
@@ -24,10 +28,18 @@ a {
 .hero {
     display: flex;
     justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    gap: 40px;
 }
 
 .hero-image {
+    display: flex;
     background-color: gray;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    max-width: 400px;
 }
 
 
@@ -62,3 +74,58 @@ a {
     text-align: end;
 }
 
+.header,
+footer {
+    background-color: #1F2937;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+
+.logo a,
+.hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+.hero button,
+.call {
+    background-color: #3882f6;
+}
+
+.container .title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.quotes {
+    background-color: #e5e7eb;
+}
+
+.quotes-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f3927;
+}
+
+.info-img {
+    border-radius: 20px;
+    border: 5px solid #3882f6;
+}
+
+.hero-text {
+    max-width: 400px;
+}
+    
