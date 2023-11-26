@@ -1,5 +1,6 @@
 * {
     border: 2px solid red;
+    
 }
 
 
@@ -19,6 +20,7 @@ a {
     text-decoration: none;
 }
 
+.call,
 .hero {
     display: flex;
     justify-content: center;
@@ -28,10 +30,35 @@ a {
     background-color: gray;
 }
 
-.title {
+
+.container {
     text-align: center;
 }
 
+.call,
 .content {
     display: flex;
+    justify-content: center;
+    gap: 40px;
 }
+
+.info {
+    max-width: 100px;
+}
+
+.info-img {
+    height: 100px;
+    border-radius: 10px;
+}
+
+.quotes-text {
+    max-width: 530px;
+    margin: 0 auto;
+}
+
+.quotes-author {
+    max-width: 530px;
+    margin: 0 auto;
+    text-align: end;
+}
+
